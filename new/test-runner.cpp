@@ -12,7 +12,7 @@
 const char* longstr = "hellohellohellohellohellohellohellohellohellohello";
 
 unsigned long print_buffer(char* str){
-  printf("Enclave said: %s",str);
+  printf("Enclave said: %s hello i have done some changes",str);
   return strlen(str);
 }
 
